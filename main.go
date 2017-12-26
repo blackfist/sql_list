@@ -27,8 +27,11 @@ func main() {
 		
 		fmt.Print(strings.Join(values, "."))
 		fmt.Print(")")
+		fmt.Print("\n")
 	} else {
 		fmt.Println("you gotta pipe in some shit, fool")
+		fmt.Println("e.g. cat somefile | sql_list")
+		fmt.Println("e.g. pbpaste | cut -d\" \" -f2 | sql_list")
 	}
 	
 }
