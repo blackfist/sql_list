@@ -25,7 +25,7 @@ func main() {
 			values = append(values, buffer.String())
 		}
 		
-		fmt.Print(strings.Join(values, "."))
+		fmt.Print(strings.Join(values, ","))
 		fmt.Print(")")
 		fmt.Print("\n")
 	} else {
